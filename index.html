@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Valley Produce Builders | We Build Gardens That Grow</title>
+
+    <meta name="description" content="Valley Produce Builders creates productive vegetable gardens, salsa gardens, raised beds, garden installations, and ongoing garden care.">
+
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            line-height: 1.6;
+            color: #263326;
+            background: #f7f5ed;
+        }
+
+        header {
+            background: #263f28;
+            color: white;
+            padding: 20px 7%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            position: sticky;
+            top: 0;
+            z-index: 10;
+        }
+
+        .logo {
+            font-size: 1.35rem;
+            font-weight: bold;
+            letter-spacing: 1px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin-left: 25px;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        .hero {
+            min-height: 75vh;
+            display: flex;
+            align-items: center;
+            padding: 80px 7%;
+            background:
+                linear-gradient(rgba(25, 50, 28, 0.72), rgba(25, 50, 28, 0.72)),
+                url("https://images.unsplash.com/photo-1599685315640-9ce7e0c2d7d0?auto=format&fit=crop&w=1800&q=80")
+                center/cover;
+            color: white;
+        }
+
+        .hero-content {
+            max-width: 750px;
+        }
+
+        .hero h1 {
+            font-size: clamp(2.8rem, 7vw, 5.5rem);
+            line-height: 1;
+            margin-bottom: 25px;
+        }
+
+        .hero p {
+            font-size: 1.35rem;
+            margin-bottom: 30px;
+            max-width: 650px;
+        }
+
+        .button {
+            display: inline-block;
+            background: #d69b36;
+            color: #172217;
+            padding: 15px 28px;
+            text-decoration: none;
+            border-radius: 6px;
+            font-weight: bold;
+            margin-right: 10px;
+        }
+
+        .button:hover {
+            opacity: 0.9;
+        }
+
+        section {
+            padding: 80px 7%;
+        }
+
+        .section-title {
+            text-align: center;
+            margin-bottom: 50px;
+        }
+
+        .section-title h2 {
+            font-size: 2.5rem;
+            color: #263f28;
+            margin-bottom: 10px;
+        }
+
+        .section-title p {
+            max-width: 650px;
+            margin: auto;
+        }
+
+        .services {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+            gap: 25px;
+        }
+
+        .service {
+            background: white;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 4px 18px rgba(0,0,0,0.08);
+        }
+
+        .service h3 {
+            color: #315d35;
+            margin-bottom: 12px;
+            font-size: 1.35rem;
+        }
+
+        .about {
+            background: #e8e4d5;
+        }
+
+        .about-content {
+            max-width: 850px;
+            margin: auto;
+            text-align: center;
+        }
+
+        .about-content p {
+            font-size: 1.15rem;
+            margin-bottom: 18px;
+        }
+
+        .cta {
+            background: #315d35;
+            color: white;
+            text-align: center;
+        }
+
+        .cta h2 {
+            font-size: 2.5rem;
+            margin-bottom: 15px;
+        }
+
+        .cta p {
+            margin-bottom: 25px;
+        }
+
+        footer {
+            background: #18251a;
+            color: #ddd;
+            text-align: center;
+            padding: 30px 7%;
+        }
+
+        @media (max-width: 700px) {
+            header {
+                flex-direction: column;
+                gap: 15px;
+            }
+
+            nav a {
+                margin: 0 7px;
+                font-size: 0.9rem;
+            }
+
+            .hero {
+                min-height: 65vh;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <div class="logo">VALLEY PRODUCE BUILDERS</div>
+
+    <nav>
+        <a href="#services">Services</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+    </nav>
+</header>
+
+<section class="hero">
+    <div class="hero-content">
+        <h1>We Build Gardens That Grow.</h1>
+
+        <p>
+            Productive gardens built for real people, real yards, and real harvests.
+            From vegetable gardens and salsa gardens to raised beds and ongoing garden care.
+        </p>
+
+        <a class="button" href="#contact">Get a Free Quote</a>
+        <a class="button" href="#services">See Our Services</a>
+    </div>
+</section>
+
+<section id="services">
+    <div class="section-title">
+        <h2>What We Build</h2>
+        <p>
+            We turn ordinary spaces into productive growing spaces.
+        </p>
+    </div>
+
+    <div class="services">
+
+        <div class="service">
+            <h3>🥕 Vegetable Gardens</h3>
+            <p>
+                Custom garden spaces designed around the vegetables you actually want to grow.
+            </p>
+        </div>
+
+        <div class="service">
+            <h3>🌶️ Salsa Gardens</h3>
+            <p>
+                Tomatoes, peppers, onions, herbs and more, designed to put fresh ingredients right outside your door.
+            </p>
+        </div>
+
+        <div class="service">
+            <h3>🌱 Raised Beds</h3>
+            <p>
+                Raised garden beds built for productive growing, easier maintenance and better organization.
+            </p>
+        </div>
+
+        <div class="service">
+            <h3>🪴 Garden Care</h3>
+            <p>
+                Soil preparation, planting, maintenance and seasonal garden care to keep your growing space productive.
+            </p>
+        </div>
+
+    </div>
+</section>
+
+<section id="about" class="about">
+    <div class="about-content">
+        <h2>More Than Landscaping</h2>
+
+        <p>
+            Valley Produce Builders is focused on building gardens that produce something.
+        </p>
+
+        <p>
+            Whether you want a small backyard vegetable garden, a dedicated salsa garden,
+            raised beds, or help getting your existing garden back on track, we're here to help
+            turn your space into something useful.
+        </p>
+    </div>
+</section>
+
+<section id="contact" class="cta">
+    <h2>Let's Build Something That Grows.</h2>
+
+    <p>
+        Tell us what you're thinking about and let's talk about your garden.
+    </p>
+
+    <a class="button" href="mailto:info@valleyproducebuilders.com">
+        Request a Quote
+    </a>
+</section>
+
+<footer>
+    <p>© 2026 Valley Produce Builders. All rights reserved.</p>
+    <p>We Build Gardens That Grow.</p>
+</footer>
+
+</body>
+</html>
